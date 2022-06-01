@@ -1,0 +1,1 @@
+To run this script, simply type the command: `python run.py`
