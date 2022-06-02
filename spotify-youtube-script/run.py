@@ -17,6 +17,8 @@ def run():
 			break
 	print("Great!\n")
 
+	input("Retrieve your access token here: https://developer.spotify.com/console/get-current-user-top-artists-and-tracks/\n\nOnce you are done, press enter. \n")
+
 	# Getting the user's OAuth Token
 	token = input("Enter your Spotify OAuth Token: ")
 	try:
