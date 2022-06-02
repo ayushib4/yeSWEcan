@@ -18,7 +18,7 @@ class SpotifyClient(object):
 				"Authorization": f"Bearer {spotify_auth_token}"
 			}
 		)
-
+		#Gets the track name and the name of the main artist for all the tracks selected
 		response_json = response.json()
 		tracks = {track["name"] : track["artists"][0]["name"] for track in response_json["items"]}
 
